@@ -1,0 +1,173 @@
+#explnTg {
+          background-color: rgb(228, 234, 235);
+          width: 60%;
+          word-wrap: break-word;
+          margin: 0px auto;
+      }
+      #chatNmg {
+          text-decoration :none;
+          letter-spacing : 0.5px;
+          font-weight : bold;
+          font-family : arial black;
+          text-transform : capitalize;
+          padding: 4px;
+      }
+      #contact {
+          text-decoration :none;
+          letter-spacing : 1px;
+          text-transform : capitalize;
+          font-family : verdana;
+          font-size : 80%;
+          font-weight : bold;
+          padding: 4px;
+      }
+      .hd-Show {  
+          background-color: rgb(228, 234, 235);
+          position: sticky;
+          top: 0;
+          z-index: 1;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding : 30px;
+          overflow: auto;
+      }
+      .my-chat-bot {
+        padding :0;
+        margin : 0;
+          background-color: rgb(228, 234, 235);
+         position: relative;
+         overflow: auto;
+         height : 97vh;
+         width : 99vw;
+      }
+      .input-nmg {
+          background-color: rgb(228, 234, 235);
+          position :sticky;
+          bottom: 0;
+          margin: 30px auto ;
+          width:86%;
+          overflow: hidden;
+          z-index : 1;
+          padding : 20px;         
+      }
+      .addedText {
+          bottom: 0;
+          margin-left: 20%;
+          overflow: hidden;
+          color: rgba(3, 1, 1, 0.596);
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size : 60%;
+          letter-spacing: 0.7px;
+          text-transform: capitalize;
+          text-align: center;
+          text-align: left;
+          margin-top: 4px;
+      }
+      #btnShow {
+          position: absolute;
+          bottom: 0;
+          margin-left: 72%;
+          margin-bottom: 30px;
+          padding: 5.5px;
+          overflow: hidden;
+          outline: none;
+          border: none;
+          background-color: rgb(208, 208, 216);
+          color: rgba(31, 28, 28, 0.185);
+          font-family: arial black;
+          font-size : 64%;
+          letter-spacing: 0.3px;
+          border-radius:8px;
+      }
+      #userInput {
+          background-color: rgb(228, 234, 235);
+      overflow-wrap:break-word;
+      word-wrap :break-word;
+      width: 60%;
+      padding:17px;
+      display: block;
+      margin : 0 auto;  
+      border-radius: 15px;
+      outline : none;
+      border : 1.5px solid rgba(68, 66, 66, 0.281);
+      }
+       #userInput::placeholder {
+      text-transform: capitalize;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 80%;
+      color: rgba(100, 94, 94, 0.651);
+      }
+     #name {
+      padding:3px;
+      margin :3px;
+      text-transform :capitalize;
+      font-family: verdana;
+      font-size: 90%;
+      font-weight : bolder;
+     }
+     #message {
+      word-wrap :break-word;
+      padding: 4px;
+      margin:  4px ;
+      text-transform: capitalize;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 80%;
+     }
+     #chatBot {
+      width : 70%;
+      padding :20px;
+      margin: 0 auto;
+      margin-left: 60px;
+      margin-bottom: 220px;
+     }
+     .content-link1, .content-link2 {
+      margin: 10px;
+      width: 98%;
+      display: flex;
+      justify-content: space-between;
+     }
+     .inside-content {
+      width: 50%;
+      align-items: center;
+      height: 50px;
+      margin : 10px;
+      border :1px solid black;
+      display: block;
+      text-decoration: none;
+      font-size: 60%;
+      padding: 10px;
+      text-align: center;
+      text-transform: capitalize;
+      outline: none;
+      border-radius: 8px;
+      border :2px solid rgba(83, 81, 81, 0.61);
+     }
+     h1 {
+      text-align: center;
+      font-size: 130%;
+      text-transform: capitalize;
+     }
+     .submainbl {
+      margin-top: 70px;
+     }
+     @media screen and (min-width: 500px)  {
+      .my-chat-bot {
+         position: relative;
+         overflow: auto;
+         height : 97vh;
+         width : 100vw;
+      }
+       #chatNmg {
+          text-decoration :none;
+          letter-spacing : 2px;
+          font-weight : bold;
+          font-family : arial black;
+          text-transform : capitalize;
+          padding: 4px;
+        font-size: 76%;
+      }
+      #contact {
+          text-transform: inherit;
+      }
+    }
